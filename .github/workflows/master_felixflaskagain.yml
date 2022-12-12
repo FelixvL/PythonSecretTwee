@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 env:
-  OOGEHEIM: ${{secrets.OOGEHEIM}}
+  OOGEHEIM: 'TUSSENTRIAL'
 
 
 jobs:
