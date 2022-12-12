@@ -63,5 +63,3 @@ jobs:
           app-name: 'FelixFlaskAgain'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0EAE14CCBA7548D099E2FDF496F7E07D }}
-        env:
-          OOGEHEIM: 'TUSSENTRIAL'
