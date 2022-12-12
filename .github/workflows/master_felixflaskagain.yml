@@ -57,6 +57,8 @@ jobs:
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
+        env:
+          OOGEHEIM: ${{secrets.OOGEHEIM}}
         with:
           app-name: 'FelixFlaskAgain'
           slot-name: 'Production'
